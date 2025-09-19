@@ -1,0 +1,135 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+
+
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+
+
+
+
+
+
+
+
+
+
+### =========================
+### 🔹 Java / Spring Boot
+### =========================
+# Compilación y empaquetado
+/target/
+/build/
+/out/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de configuración de Spring Boot
+*.pid
+
+### =========================
+### 🔹 IntelliJ IDEA
+### =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Configuración específica de IntelliJ
+out/
+
+
+### =========================
+### 🔹 Node / Angular
+### =========================
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Builds
+/dist/
+/tmp/
+/out-tsc/
+/coverage/
+
+# Archivos de lock opcionales (si quieres solo uno)
+/yarn.lock
+/pnpm-lock.yaml
+# Deja package-lock.json si lo quieres controlar, si no, ignóralo también
+/package-lock.json
+
+# Archivos de cache
+.npm/
+.eslintcache
+.cache/
+.angular/cache/
+
+# Archivos de test
+/karma.conf.js
+/coverage/
+
+### =========================
+### 🔹 SO / Editor
+### =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+.history/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### =========================
+### 🔹 Otros
+### =========================
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Backups
+*.bak
+*.old
